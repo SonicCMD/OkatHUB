@@ -1,5 +1,5 @@
 --!strict
-local WORKER_URL: string = "https://portalg.okathub.workers.dev/"
+local WORKER_URL: string = "https://portalg.okathub.workers.dev"
 
 local function fetchPayload(url: string): string?
     local ok, response = pcall(function()
